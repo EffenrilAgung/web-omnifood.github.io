@@ -168,7 +168,7 @@ input[type='submit'] {
 
 .stincky {
 	position: fixed;
-
+	transition: all ease 300ms;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -684,3 +684,16 @@ footer .twitter:hover {
 }
 
 /* Penutup Footer */
+
+/* Animate-opacity get food fast */
+.animate-opacity {
+	opacity: 0;
+}
+
+/* Animate */
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__pulse {
+	--animate-duration: 1s;
+	--animate-delay: 2s;
+}

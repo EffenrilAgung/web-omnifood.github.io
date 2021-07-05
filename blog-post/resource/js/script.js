@@ -5,19 +5,37 @@ $(document).ready(function () {
         var x = $(tujuan).attr('href')
         //ambil element
         var elemenHref = $(x)
-        console.log(tujuan)
+        console.log("nav = ", elemenHref.offset().top)
         $('html, body').animate({ scrollTop: elemenHref.offset().top - 70 }, 1000)
     })
-
+    //".animate__animated animate__fadeIn"
     $(window).on('scroll', function () {
 
-        if ($(window).scrollTop() > 590) {
+        if ($(window).scrollTop() >= 590) {
             $('nav').addClass('stincky')
             $('nav').on('click').top - 590
+
         } else {
             $('nav').removeClass('stincky')
         }
+        if ($(window).scrollTop() >= 600) {
+            var animasi = $('.animate-food-delivery').addClass('animate__animated animate__fadeIn')
+            $('.animate-food-delivery').animate({ scrollTop: $(animasi) }, 1000)
+        }
+        if ($(window).scrollTop() > 3700) {
+            var animasiPremium = $('#premium').addClass('animate__animated animate__pulse')
+            $('#premium').animate({ scrollTop: $(animasiPremium) }, 1000)
+        }
+        if ($(window).scrollTop() >= 1700) {
+            var animasiAppScreen = $('.app-screen').addClass("animate__animated animate__fadeInUp")
+            $('app-sreen').animate({ scrollTop: animasiAppScreen }, 1000)
+        }
     })
+
+
+
+    console.log($('.animate-food-delivery').offset().top)
+
 
     $(".btn-full").on('click', function () {
         $('html, body').animate({
@@ -69,8 +87,6 @@ $(document).ready(function () {
             }
         });
 
-
-    // Animation On Scroll
 
 
 })
