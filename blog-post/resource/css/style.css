@@ -162,6 +162,17 @@ input[type='submit'] {
 	transition: all 500ms;
 }
 
+/* nav ion-icon {
+	color: white;
+	font-size: 200%;
+}
+
+.mobile-nav-icon {
+	display: none;
+	float: right;
+	margin-top: 30px;
+} */
+
 /* Penutup Nav */
 
 /* Stinky Nav */
@@ -688,6 +699,7 @@ footer .twitter:hover {
 /* Animate-opacity get food fast */
 .animate-opacity {
 	opacity: 0;
+	animation-duration: 1s;
 }
 
 /* Animate */
