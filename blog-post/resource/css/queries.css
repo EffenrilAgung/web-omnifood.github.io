@@ -93,7 +93,6 @@
 		width: 100%;
 		margin: 0 0 0 0;
 	}
-	/* .main-nav {display: none;} */
 	h1 {
 		font-size: 180%;
 	}
@@ -103,7 +102,7 @@
 	.section-steps .works-step {
 		margin-bottom: 20px;
 	}
-	/* .mobile-nav-icon {
+	.mobile-nav-icon {
 		display: inline-block;
 	}
 	.main-nav {
@@ -119,14 +118,21 @@
 	.main-nav li a:visited {
 		display: block;
 		border: 0;
-		padding: 10px 0;
 		font-size: 100%;
 	}
 	.stincky .main-nav li a:link,
 	.stincky .main-nav li a:visited {
 		padding: 10px 0;
-	} */
-
+	}
+	.stincky .main-nav {
+		margin-top: 10px;
+	}
+	.stincky ion-icon {
+		color: #555;
+	}
+	.stincky .mobile-nav-icon {
+		margin: 10px;
+	}
 	/* My Version Code */
 	.section-features .row .long-copy {
 		width: 80%;

@@ -87,6 +87,22 @@ $(document).ready(function () {
             }
         });
 
+    // var icon = $('ion-icon[name=menu-outline]')
+    // var closeIcon = $('ion-icon[name=close-outline]')
 
+    $('.js--nav-icon').on("click", function () {
+        var nav = $('.js--main-nav')
+        nav.slideToggle(200)
+    })
 
+    var menu = $('#menu-outline')
+    var close = $('#close-outline')
+    $(menu).click(function () {
+        menu.attr('hidden', true)
+        close.attr('hidden', false)
+    })
+    $(close).click(function () {
+        close.attr('hidden', true)
+        menu.attr('hidden', false)
+    })
 })
