@@ -613,87 +613,103 @@ input[type='checkbox'] {
 
 /* Foooter */
 footer {
-	background-color: #333;
-	padding: 60px;
+	background-color: #3a3a3a;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+footer .images img {
+	width: 50px;
+	height: 50px;
+	margin: 3% 3%;
+	border: 1px solid #666;
+}
+
+footer p,
+footer h5 {
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+footer .image-contribusi img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 10px 5px;
+}
+
+footer .opening-post-instagram,
+footer h5,
+footer .first-line {
+	font-size: 80%;
+	margin: 30px 0;
+}
+
+footer .social p {
+	font-weight: 400;
+}
+
+footer .social-links li {
+	display: inline-block;
+	margin: 5% 5px;
+}
+
+footer .email {
+	margin: 50px 0;
+}
+
+footer .email input[type='email'] {
+	width: 50%;
+}
+
+.email input[type='button'] {
+	background-color: #2f72f5;
+	padding: 1.5% 5%;
+	display: inline-block;
+	border: none;
+	margin: 0;
+	color: white;
+	border-radius: 5px;
+}
+.email input[type='button']:hover {
+	color: black;
+}
+.social-links li a {
+	background-color: #2f73f0;
+	color: white;
+	font-size: 100%;
+	padding: 5px 5px;
+	border-radius: 4.5px;
+	border: 1px solid blue;
+	vertical-align: middle;
+}
+
+.link-home li a {
+	text-decoration: none;
+	color: white;
+}
+
+.link-home li a:hover {
+	font-weight: 400;
+}
+.link-home ul li {
+	display: inline-block;
+	font-weight: 300;
+	margin: 1% 2%;
 	font-size: 80%;
 }
 
-footer p {
-	color: #888;
+footer .love ion-icon:hover {
+	color: tomato;
+}
+
+footer .love {
+	font-size: 80%;
 	text-align: center;
-	margin-top: 30px;
-	word-spacing: 3px;
-	line-height: 180%;
 }
-
-.footer-nav {
-	list-style: none;
-	float: left;
+footer .opening-post-instagram {
+	width: 100% !important;
 }
-
-.social-links li {
-	list-style: none;
-	float: right;
-}
-
-.footer-nav li,
-.social-links li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.footer-nav li:last-child,
-.social-links li:first-child {
-	margin-right: 0;
-}
-
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
-	text-decoration: none;
-	border: 0;
-	color: #888;
-	-webkit-transition: color 0.2s;
-	-o-transition: color 0.2s;
-	transition: color 0.2s;
-}
-
-.footer-nav li a:hover,
-.footer-nav li a:active {
-	color: #ddd;
-}
-
-.social-links li a:link,
-.social-linksli a:visited {
-	font-size: 110%;
-}
-
-footer .facebook,
-footer .ig,
-footer .twitter,
-footer .google {
-	-webkit-transition: color 0.2s;
-	-o-transition: color 0.2s;
-	transition: color 0.2s;
-}
-
-footer .facebook:hover {
-	color: #3b5999;
-}
-
-footer .ig:hover {
-	color: #e4405f;
-}
-
-.google:hover {
-	color: #dd4b39;
-}
-
-footer .twitter:hover {
-	color: rgb(51, 187, 250);
-}
-
 /* Penutup Footer */
 
 /* Animate-opacity get food fast */

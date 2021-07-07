@@ -175,20 +175,12 @@
 	.plan-box ion-icon {
 		font-size: 100%;
 	}
-	footer .col:first-child {
-		width: 60%;
-		float: left;
+	.link-home li a {
+		font-size: 60% !important;
+		margin-right: 9px;
 	}
-	footer .footer-nav a {
-		font-size: 72%;
-	}
-	footer .col:last-child {
-		width: 30%;
-		float: right;
-	}
-
-	footer {
-		padding: 2%;
+	.love p {
+		font-size: 50%;
 	}
 	/* Closing my version code */
 }

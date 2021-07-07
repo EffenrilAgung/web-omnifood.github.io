@@ -1,90 +1,68 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<script src="../latihan-omnifood/omnifood/vendor/js/noframework.waypoints.min.js"></script>
-		<style>
-			body {
-				margin: 0;
-				background-color: #f1f1f1;
-				font-family: Arial, Helvetica, sans-serif;
-			}
-
-			#navbar {
-				background-color: #333;
-				position: fixed;
-				top: 0;
-				width: 100%;
-				display: block;
-				transition: top 0.3s;
-			}
-
-			#navbar a {
-				float: left;
-				display: block;
-				color: #f2f2f2;
-				text-align: center;
-				padding: 15px;
-				text-decoration: none;
-				font-size: 17px;
-			}
-
-			#navbar a:hover {
-				background-color: #ddd;
-				color: black;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="navbar">
-			<a href="#home">Home</a>
-			<a href="#news">News</a>
-			<a href="#contact">Contact</a>
-		</div>
-
-		<div style="padding: 15px 15px 2500px; font-size: 30px; margin-top: 30px">
-			<p>
-				<b
-					>This example demonstrates how to hide a navbar when the user starts to scroll
-					the page.</b
-				>
-			</p>
-			<p>Scroll down this frame to see the effect!</p>
-			<p>Scroll up to show the navbar.</p>
-			<p>
-				Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-				dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-				sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<p>
-				Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-				dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-				sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-
-		<script>
-			var waypoints = $('#navbar').waypoint({
-				handler: function (direction) {
-					notify(this.element.id + ' hit');
-				},
-			});
-			// var prevScrollpos = window.pageYOffset;
-			// window.onscroll = function () {
-			// 	var currentScrollPos = window.pageYOffset;
-			// 	if (prevScrollpos > currentScrollPos) {
-			// 		document.getElementById('navbar').style.top = '0';
-			// 	} else {
-			// 		document.getElementById('navbar').style.top = '-50px';
-			// 	}
-			// 	prevScrollpos = currentScrollPos;
-			// };
-		</script>
-	</body>
-</html>
+<div class="row">
+	<div class="col span-1-of-2">
+		<ul class="footer-nav">
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Press</a></li>
+			<li><a href="#">IOS App</a></li>
+			<li><a href="#">Android App</a></li>
+		</ul>
+	</div>
+	<div class="col span-1-of-2">
+		<ul class="social-links">
+			<li>
+				<a href="#">
+					<ion-icon class="facebook" name="logo-facebook"></ion-icon>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<ion-icon class="twitter" name="logo-twitter"></ion-icon>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<ion-icon class="google" name="logo-google"></ion-icon>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<ion-icon class="ig" name="logo-instagram"></ion-icon>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<!-- <p>
+	Copyright &copy; 2015 by Omnifood. All right reversed
+</p> -->
+</div>
+<div class="rincian">
+	<p>
+		This webpage was created for the course "Design and Develop a Killer Website
+		Using HTML5 and CSS3" by Jonas Schmedtmann. No copyrights here. This webpage is
+		for you! So go and do whatever you want with it and have fun.
+	</p>
+	<br />
+	<p>
+		Build with <ion-icon class="ig" name="heart"></ion-icon> in the beautiful city
+		of Lisbon, Portugal, March 2015.
+	</p>
+</div>
+<!-- css -->
+footer { background-color: #333; padding: 60px; font-size: 80%; } footer p {
+color: #888; text-align: center; margin-top: 30px; word-spacing: 3px;
+line-height: 180%; } .footer-nav { list-style: none; float: left; }
+.social-links li { list-style: none; float: right; } .footer-nav li,
+.social-links li { display: inline-block; margin-right: 20px; } .footer-nav
+li:last-child, .social-links li:first-child { margin-right: 0; } .footer-nav li
+a:link, .footer-nav li a:visited, .social-links li a:link, .social-links li
+a:visited { text-decoration: none; border: 0; color: #888; -webkit-transition:
+color 0.2s; -o-transition: color 0.2s; transition: color 0.2s; } .footer-nav li
+a:hover, .footer-nav li a:active { color: #ddd; } .social-links li a:link,
+.social-linksli a:visited { font-size: 110%; } footer .facebook, footer .ig,
+footer .twitter, footer .google { -webkit-transition: color 0.2s; -o-transition:
+color 0.2s; transition: color 0.2s; } footer .facebook:hover { color: #3b5999; }
+footer .ig:hover { color: #e4405f; } .google:hover { color: #dd4b39; } footer
+.twitter:hover { color: rgb(51, 187, 250); }

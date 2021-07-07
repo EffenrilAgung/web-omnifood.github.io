@@ -3,12 +3,11 @@ $(document).ready(function () {
     $("li").click(function () {
         var tujuan = $(this).html()
         var x = $(tujuan).attr('href')
-        //ambil element
+
         var elemenHref = $(x)
-        console.log("nav = ", elemenHref.offset().top)
         $('html, body').animate({ scrollTop: elemenHref.offset().top - 70 }, 1000)
     })
-    //".animate__animated animate__fadeIn"
+
     $(window).on('scroll', function () {
 
         if ($(window).scrollTop() >= 590) {
@@ -31,11 +30,6 @@ $(document).ready(function () {
             $('app-sreen').animate({ scrollTop: animasiAppScreen }, 1000)
         }
     })
-
-
-
-    console.log($('.animate-food-delivery').offset().top)
-
 
     $(".btn-full").on('click', function () {
         $('html, body').animate({
@@ -86,9 +80,6 @@ $(document).ready(function () {
                 }
             }
         });
-
-    // var icon = $('ion-icon[name=menu-outline]')
-    // var closeIcon = $('ion-icon[name=close-outline]')
 
     $('.js--nav-icon').on("click", function () {
         var nav = $('.js--main-nav')
