@@ -105,7 +105,13 @@
 	.mobile-nav-icon {
 		display: inline-block;
 	}
+	nav .logo {
+		width: 20%;
+		height: 20%;
+	}
+
 	.main-nav {
+		display: none;
 		float: left;
 		margin-top: 35px;
 		margin-left: 25px;
@@ -118,7 +124,7 @@
 	.main-nav li a:visited {
 		display: block;
 		border: 0;
-		font-size: 100%;
+		font-size: 80%;
 	}
 	.stincky .main-nav li a:link,
 	.stincky .main-nav li a:visited {
