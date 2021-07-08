@@ -66,14 +66,6 @@
 	.plan-box div {
 		font-size: 91%;
 	}
-	footer .col:first-child {
-		width: 60%;
-		float: left;
-	}
-	footer .col:last-child {
-		width: 30%;
-		float: right;
-	}
 }
 
 /* Media query ini biasa digunakan untuk media Ipad */
@@ -139,7 +131,6 @@
 	.stincky .mobile-nav-icon {
 		margin: 10px;
 	}
-	/* My Version Code */
 	.section-features .row .long-copy {
 		width: 80%;
 		margin-left: 10%;
@@ -175,14 +166,26 @@
 	.plan-box ion-icon {
 		font-size: 100%;
 	}
+	/* footer */
 	.link-home li a {
-		font-size: 60% !important;
-		margin-right: 9px;
+		font-size: 50% !important;
+		margin: 0;
+	}
+	.link-home ul {
+		width: 50%;
 	}
 	.love p {
-		font-size: 50%;
+		position: relative;
+		top: -5.5px;
+		float: right;
+		font-size: 30%;
+		width: 50%;
+		margin: 0 !important;
 	}
-	/* Closing my version code */
+	footer .social {
+		margin: 10% 0;
+	}
+	/* Penutup Footer */
 }
 /*
 Media Kueri ini biasanya di gunakan untuk handpone lama seperti iphone  4 dan iphone 5

@@ -642,7 +642,7 @@ footer .opening-post-instagram,
 footer h5,
 footer .first-line {
 	font-size: 80%;
-	margin: 30px 0;
+	margin: 30px 0 30px 0;
 }
 
 footer .social p {
@@ -705,11 +705,14 @@ footer .love ion-icon:hover {
 
 footer .love {
 	font-size: 80%;
-	text-align: center;
+	margin: 0;
 }
+
 footer .opening-post-instagram {
-	width: 100% !important;
+	width: 80%;
+	text-align: justify;
 }
+
 /* Penutup Footer */
 
 /* Animate-opacity get food fast */
